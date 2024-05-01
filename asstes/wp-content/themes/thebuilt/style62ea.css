@@ -7561,11 +7561,12 @@ img.emoji {
 	  padding-left: 10px;
 	  margin-right: auto;
 	  margin-left: auto;
+	  height: auto;
       
 	}
 	
 	/* Estilos para dispositivos móviles (ancho máximo de 380px) */
-	@media (max-width: 380px) {
+	@media (max-width: 240px) {
 	  .element {
 		padding-right: 5px;
 		padding-left: 5px;
@@ -8123,7 +8124,7 @@ img.emoji {
 }
 
 /* Estilos para dispositivos móviles */
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 240px) {
     /* Mostrar logo blanco en dispositivos móviles */
     .mostrar-light-logo .light-logo {
         display: inline-block;
